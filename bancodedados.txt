@@ -1,0 +1,17 @@
+# Usuarios
+
+CREATE TABLE  `damasio3406`.`usuarios` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`usuario` VARCHAR( 12 ) NOT NULL ,
+`senha` VARCHAR( 12 ) NOT NULL,
+`nivel` INT NOT NULL,
+) ENGINE = INNODB;
+
+# Convidados
+
+CREATE TABLE  `damasio3406`.`convidados` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`nome` VARCHAR( 100 ) NOT NULL ,
+`referencia` INT ,
+`codigo` VARCHAR( 5 ) 
+) ENGINE = INNODB;

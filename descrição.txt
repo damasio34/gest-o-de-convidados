@@ -1,0 +1,16 @@
+ -- Sistema de confirmação de presença --
+
+#Funcionalidades
+
+- Admin
+	- Gerenciamento do sistema
+	- Cadastrar gerenciador do sistema
+
+- Gerenciamento do sistema
+	- Cadastrar convidados
+	- Gerar códigos
+	- Atualazar código convidado
+	- Remover convidado
+
+- Usuário final (convidado)
+	- Confirmar presença
